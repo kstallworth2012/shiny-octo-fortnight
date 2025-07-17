@@ -1,7 +1,9 @@
 package com.quickstart.quickstart.practice.components;
 
+import org.springframework.stereotype.Component;
 
 //mvnw spring-boot:run
+@Component
 public class WelcomeToTheShow{
 
      public String getWelcomeMessage(){
