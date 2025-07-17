@@ -1,6 +1,8 @@
 package com.quickstart.quickstart.practice.models;
 
 import java.time.LocalDateTime; 
+import com.quickstart.quickstart.practice.models.enums.Status;
+import com.quickstart.quickstart.practice.models.enums.Type;
 
 
 
@@ -12,5 +14,7 @@ String desc,
 Status status, 
 Type contentType, 
 LocalDateTime dateCreated, 
-LocalDateTime dateUpdated 
+LocalDateTime dateUpdated,
+String url
+
 ){}
