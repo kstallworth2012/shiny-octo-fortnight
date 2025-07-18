@@ -1,6 +1,11 @@
 package com.quickstart.quickstart.practice.controllers;
 
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+
+@RestController
+@RequestMapping("/api/grants")
 
 GET    /api/grants                     # List all grants
 GET    /api/grants/{id}                # Get details of a specific grant

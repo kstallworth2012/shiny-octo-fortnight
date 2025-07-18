@@ -1,4 +1,5 @@
 
+package com.quickstart.quickstart.practice.controllers;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;

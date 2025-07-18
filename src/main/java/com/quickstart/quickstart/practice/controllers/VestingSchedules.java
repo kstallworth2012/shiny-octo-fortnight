@@ -7,3 +7,10 @@ POST   /api/vesting                    # Create vesting timeline for grant
 PUT    /api/vesting/{id}               # Update vesting milestones
 DELETE /api/vesting/{id}               # Remove vesting record
 */
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+
+@RestController
+@RequestMapping("/api/vesting")
