@@ -27,7 +27,8 @@ public class QuickstartApplication implements CommandLineRunner{
 
 
 	private final DataSource dataSource;
-
+    
+    private static final Logger log = LoggerFactory.getLogger(QuickstartApplication.class);
 
 	public QuickstartApplication(final DataSource _dataSource){
 		this.dataSource = _dataSource;
@@ -47,7 +48,7 @@ public class QuickstartApplication implements CommandLineRunner{
 
 	@Override
 	public void run(final String... args){
-		// log.info("DataSource: "+ dataSource.toString());
+		 log.info("DataSource: "+ dataSource.toString());
 		System.out.println("DataSource: "+ dataSource.toString());
 		final JdbcTemplate restTemplate = new JdbcTemplate(dataSource);
 		restTemplate.execute("SELECT 1");
