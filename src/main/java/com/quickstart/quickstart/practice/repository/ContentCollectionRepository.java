@@ -1,4 +1,4 @@
-package com.quickstart.quickstart.practice.repository
+package com.quickstart.quickstart.practice.repository;
 
 
 import org.springframework.stereotype.Repository;

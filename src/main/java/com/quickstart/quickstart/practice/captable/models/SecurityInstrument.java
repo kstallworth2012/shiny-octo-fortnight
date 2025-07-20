@@ -5,7 +5,7 @@ package com.quickstart.quickstart.practice.captable.models;
 
 
 import com.quickstart.quickstart.practice.captable.models.enums.SecurityType;
-
+import java.time.LocalDateTime;
 
 
 public record SecurityInstrument(

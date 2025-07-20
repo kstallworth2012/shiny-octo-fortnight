@@ -1,7 +1,7 @@
 package com.quickstart.quickstart.practice.captable.models;
 
-import com.quickstart.quickstart.practice.captable.enums.ShareHolderType;
-import com.quickstart.quickstart.practice.captable.enums.EntityType;
+import com.quickstart.quickstart.practice.captable.models.enums.ShareHolderType;
+import com.quickstart.quickstart.practice.captable.models.enums.EntityType;
 
 public record ShareHolder(
 
