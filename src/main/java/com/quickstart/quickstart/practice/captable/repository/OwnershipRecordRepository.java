@@ -25,6 +25,6 @@ public class OwnershipRecordRepository{
 }
 
 	public Optional<OwnershipRecord> findById(Integer id){
-	return owner_record.stream().filter(o-> o.id().equals(id)).findFirst();
+	return owner_record.stream().filter(o-> o.ownership_id().equals(id)).findFirst();
 		}
 }

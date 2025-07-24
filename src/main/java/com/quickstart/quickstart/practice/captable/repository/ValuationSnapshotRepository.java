@@ -27,7 +27,7 @@ public ValuationSnapshotRepository(){
 }
 
 public Optional<ValuationSnapshot> findById(Integer id){
-	return snapShot.stream().filter(s-> s.id().equals(id)).findFirst();
+	return snapShot.stream().filter(s -> s.valuation_id().equals(id)).findFirst();
 }
 
 }

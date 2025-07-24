@@ -24,7 +24,7 @@ public class ShareHolderRepository{
 		}
 
 	public Optional<ShareHolder> findById(Integer id){
-	return shareHolder.stream().filter(h-> h.id().equals(id)).findFirst();
+	return shareHolder.stream().filter(h-> h.shareholder_id().equals(id)).findFirst();
 		}
 
 

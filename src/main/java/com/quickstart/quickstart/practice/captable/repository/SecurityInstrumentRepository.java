@@ -25,7 +25,7 @@ public class SecurityInstrumentRepository{
 }
 
 	public Optional<SecurityInstrument> findById(Integer id){
-	return security.stream().filter(s-> s.id().equals(id)).findFirst();
+	return security.stream().filter(s-> s.security_id().equals(id)).findFirst();
 }
 
 

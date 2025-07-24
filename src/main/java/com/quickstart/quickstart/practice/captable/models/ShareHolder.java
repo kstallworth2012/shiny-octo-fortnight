@@ -5,7 +5,7 @@ import com.quickstart.quickstart.practice.captable.models.enums.EntityType;
 
 public record ShareHolder(
 
-String shareholder,
+String shareholder_id,
 String name,
 ShareHolderType shareholder_type,
 String share_holder_email,

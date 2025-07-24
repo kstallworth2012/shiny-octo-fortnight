@@ -14,7 +14,7 @@ String desc,
 Status status, 
 Type contentType, 
 LocalDateTime dateCreated, 
-LocalDateTime dateUpdated,
-String url
+LocalDateTime dateUpdated
+// String url
 
 ){}
