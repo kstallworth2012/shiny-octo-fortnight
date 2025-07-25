@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import jakarta.annotation.PostConstruct;
 
 
 @Repository
@@ -27,5 +28,8 @@ public class ShareHolderRepository{
 	return shareHolder.stream().filter(h-> h.shareholder_id().equals(id)).findFirst();
 		}
 
+
+	// @PostConstruct
+	// private void init(){}
 
 }

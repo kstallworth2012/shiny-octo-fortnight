@@ -27,4 +27,9 @@ public class FundingRoundRepository{
 	public Optional<FundingRound> findById(Integer id){
 	return fund_round.stream().filter(f-> f.round_id().equals(id)).findFirst();
 		}
+
+
+	
+	// @PostConstruct
+	// private void init(){}
 }

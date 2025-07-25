@@ -1,8 +1,8 @@
 package com.quickstart.quickstart.practice.models;
 
 import java.time.LocalDateTime; 
-
-
+import com.quickstart.quickstart.practice.models.Employee;
+import com.quickstart.quickstart.practice.models.EquityGrant;
 public record ExerciseTransaction(
 
 String exercise_id, 
