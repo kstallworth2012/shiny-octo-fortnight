@@ -3,6 +3,8 @@ package com.quickstart.quickstart.practice.captable.repository;
 
 import com.quickstart.quickstart.practice.captable.models.FundingRound;
 import org.springframework.stereotype.Repository;
+import jakarta.annotation.PostConstruct;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -12,6 +14,7 @@ import java.util.Optional;
 public class FundingRoundRepository{
 
 	private final List<FundingRound> fund_round = new ArrayList<>();
+
 
 
 
@@ -29,7 +32,12 @@ public class FundingRoundRepository{
 		}
 
 
-	
-	// @PostConstruct
-	// private void init(){}
+
+	@PostConstruct
+	private void init(){
+
+		FundingRound f = new FundingRound("a87hoiho","second round",90090909,776555,7000);
+		fund_round.add(f);
+
+	}
 }

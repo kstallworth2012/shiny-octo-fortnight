@@ -3,6 +3,8 @@ package com.quickstart.quickstart.practice.captable.repository;
 
 import com.quickstart.quickstart.practice.captable.models.OwnershipRecord;
 import org.springframework.stereotype.Repository;
+import jakarta.annotation.PostConstruct;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -32,5 +34,5 @@ public class OwnershipRecordRepository{
 	// @PostConstruct
 	// private void init(){}
 
-	
+
 }
